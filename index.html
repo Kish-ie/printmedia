@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wandigi - Premier media and events company creating unforgettable experiences">
+    <title>Wandigi | Media & Events</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo" aria-label="Wandigi Home">
+                <img src="images/logo.PNG" alt="Wandigi Logo" width="150">
+            </a>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop playsinline poster="images/hero-bg.webp.png">
+                <source src="media/WANDIGI.mp4" type="video/mp4" style="position: fixed;">
+            </video>
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title slide-up">Creating Unforgettable Experiences</h1>
+            <p class="hero-text fade-in">Wandigi delivers exceptional media production and event management services tailored to your vision.</p>
+            <div class="hero-buttons">
+                <a href="#featured" class="btn btn-primary pulse">Explore Events</a>
+                <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <a href="#featured" class="scroll-down" aria-label="Scroll down">
+            <span></span>
+        </a>
+    </section>
+
+    <!-- Featured Events -->
+    <section id="featured" class="section featured-events">
+        <div class="container">
+            <h2 class="section-title">Featured Events</h2>
+            <div class="events-grid">
+                <!-- Event cards will be populated by JavaScript -->
+            </div>
+            <div class="text-center">
+                <a href="events.html" class="btn btn-accent">View All Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="section about-preview">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Who We Are</h2>
+                <p class="about-text">Wandigi is a creative powerhouse specializing in media production and high-impact event management. Our team of passionate professionals delivers excellence at every turn.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="counter" data-target="150">0</span>
+                        <span class="stat-label">Events Hosted</span>
+                    </div>
+                    <div class="stat">
+                        <span class="counter" data-target="50">0</span>
+                        <span class="stat-label">Clients Worldwide</span>
+                    </div>
+                    <div class="stat">
+                        <span class="counter" data-target="12">0</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+                <a href="about.html" class="btn btn-primary">Our Story</a>
+            </div>
+            <div class="about-image">
+                <img src="images/about-preview.webp" alt="Wandigi team working" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="section services-preview">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/live.png" alt="Event Management" aria-hidden="true">
+                    </div>
+                    <h3>live streaming</h3>
+                    <p>From concept to execution, we handle every detail to ensure flawless events.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/drone.jpg" alt="Media Production" aria-hidden="true">
+                    </div>
+                    <h3>Media Production</h3>
+                    <p>High-quality video, photography, and digital content that tells your story.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/PA.jpg" alt="Brand Activation" aria-hidden="true">
+                    </div>
+                    <h3>Public Address</h3>
+                    <p>Create meaningful connections between your brand and your audience.</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="services.html" class="btn btn-accent">All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial active">
+                    <p class="testimonial-text">"Wandigi transformed our corporate gala into an unforgettable experience. Their attention to detail was impeccable."</p>
+                    <p class="testimonial-author">— Sarah Johnson, TechCorp</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"The media team captured our product launch perfectly. The videos went viral across our platforms."</p>
+                    <p class="testimonial-author">— Michael Chen, InnovateCo</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"Working with Wandigi was seamless. They understood our vision and executed beyond our expectations."</p>
+                    <p class="testimonial-author">— David Wilson, Global Events</p>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-prev" aria-label="Previous testimonial">&#10094;</button>
+                <div class="carousel-dots"></div>
+                <button class="carousel-next" aria-label="Next testimonial">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <h2 class="cta-title">Ready to Create Something Amazing?</h2>
+            <p class="cta-text">Let's discuss how we can bring your vision to life.</p>
+            <a href="contact.html" class="btn btn-primary btn-large">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <img src="images/logo.png" alt="Wandigi Logo" class="footer-logo">
+                    <p>Creating exceptional media and event experiences since 2012.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><img src="images/facebook.svg" alt=""></a>
+                        <a href="#" aria-label="Instagram"><img src="images/instagram.svg" alt=""></a>
+                        <a href="#" aria-label="Twitter"><img src="images/twitter.svg" alt=""></a>
+                        <a href="#" aria-label="LinkedIn"><img src="images/linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>123 Event Street<br>Media City, MC 10001</p>
+                    <p>Phone: (123) 456-7890<br>Email: info@wandigi.com</p>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Stay Updated</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn btn-accent">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Wandigi Media & Events. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
